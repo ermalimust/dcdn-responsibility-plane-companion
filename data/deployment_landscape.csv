@@ -1,0 +1,7 @@
+system,family,decentralized_planes,reported_scale_or_status,source_keys,retained_control_boundary
+ByteDance PCDN+/Swarm,industrial P2P-CDN,Data (peer/edge upload),World's largest PCDN for on-demand video; peer-reviewed deployment study,Zhang2024PCDNPlus; Wei2024Swarm,"Operator admission, scheduling, ranking, and CDN fallback"
+Peer5; Streamroot,commercial P2P eCDN,Data only,Up to ~95% bandwidth offload reported; independent security/measurement study; both absorbed by incumbents,tang2024stealthy; Peer5Microsoft2021; StreamrootCenturyLink2019,Managed signaling/tracker plus CDN-origin fallback; now incumbent-owned
+Theta Network,Web3 video,Data; economic,"10,000+ edge nodes, project-reported deployment signal",ThetaNetwork2024,20-30 permissioned enterprise validators; Theta Labs orchestration
+Livepeer,Web3 transcoding/delivery,Delivery/compute; economic,"~31M transcoded minutes per quarter, analyst-reported",Livepeer2024Brief,Gateway nodes; stake-weighted participation; protocol-capped orchestrator set
+Filecoin Saturn,Web3 retrieval CDN,Data; storage/naming,"Peak 2,000+ points of presence and ~478M requests/day; public CDN effort wound down in 2024",FilecoinSaturn2023,Core-team orchestrator for node admission and payouts
+IPFS public retrieval,gateways/pinning,Content addressing,"Independent measurement: approx. 52% of IPFS servers hosted on three cloud providers, content resolution dominated by one",balduf2023cloud,Cloud-hosted gateways and pinning services; delegated routing

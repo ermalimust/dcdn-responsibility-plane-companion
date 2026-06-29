@@ -1,0 +1,7 @@
+mechanism,reference_key,reported_result,baseline,evidence_type_and_scale,caveat
+"Hybrid P2P-CDN, ALIVE",farahani2024alive,>=22% QoE; >=34% provider cost; >=40% serving latency; >=24% backhaul,Network-assisted streaming baselines,"Cloud testbed, 350 HAS players",Source-reported lower-bound figures; single testbed
+Serviceability-aware overlay,budhkar2019overlay,+25% streaming quality; -20% startup delay; +30% upload utilization,"Prior overlays (PROSE, LiveSky, AERO)",Simulation; churn and heterogeneous uplinks,Comparative simulation only
+Learning-based peer selection,zhejiayu2021when,Up to +22.7% throughput,Random peer selection; ISP +14.5%; geographic +6.8%,"Trace-driven; 18M+ peers, 2B+ chunks",Gain shrinks against stronger heuristics
+Two-step server selection,saengarunwong2018two,-8.3% startup delay,Load-balancing CDN-P2P,Discrete-event simulation; VoD,Single-configuration simulation
+"Multi-CDN steering, Netflix study",Adhikari2012Netflix,>12% bandwidth,Static CDN assignment,"Active measurement; 3 CDNs, PlanetLab and residential","Proposed strategy, not deployed steering"
+Data-driven user-to-CDN mapping,zhu2022user,Improved mapping over QoS-only prediction,QoS-only prediction,Trace-driven; one-month logs,Source-reported directional improvement

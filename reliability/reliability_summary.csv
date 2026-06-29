@@ -1,0 +1,9 @@
+item,value,note
+coding_object,30 responsibility-plane cells,Six architecture families coded across five responsibility planes.
+ordinal_scale,D0-D3,Operator-centralized to permissionless/trust-minimized responsibility patterns.
+independent_coders,2,"Non-author computer-science master students with networking background, as reported in the manuscript."
+coding_condition,blind independent coding,Coders used the rubric and neutral family descriptions.
+quadratic_weighted_cohens_kappa,0.841,Ordinal agreement statistic reported in the manuscript.
+kappa_95_percent_ci,"[0.615, 0.941]",Bootstrap confidence interval reported in the manuscript.
+krippendorff_ordinal_alpha,0.744,Ordinal alpha robustness check reported in the manuscript.
+adjudication_rule,retained dependency cue,"Ambiguous adjacent codes are resolved toward the retained coordinator, gateway, admission, accounting, or policy authority."

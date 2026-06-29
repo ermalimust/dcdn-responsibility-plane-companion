@@ -1,0 +1,6 @@
+metric,value,note
+de_duplicated_candidate_records_reported_in_manuscript,310,Aggregate count reported in the manuscript review protocol.
+cited_sources_reported_in_manuscript,208,Metadata for cited sources is provided in included_sources_metadata.csv.
+screened_but_not_cited_reported_in_manuscript,102,Aggregate count reported in the manuscript review protocol.
+bib_entries_in_this_snapshot,208,BibTeX entries included in bibliography/ref.bib.
+citation_closure_check,208/208,All BibTeX entries in this snapshot are cited in main.tex.

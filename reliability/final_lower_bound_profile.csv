@@ -1,0 +1,31 @@
+family,plane,final_code,rationale
+Centralized CDN,Data,D0,distributed replicas remain under one operator
+Centralized CDN,Control,D0,"provider routing, placement, telemetry, and failover"
+Centralized CDN,Trust,D0,provider logs and SLA reporting
+Centralized CDN,Economic,D0,bilateral billing and contracts
+Centralized CDN,Governance/Policy,D0,"operator policy, revocation, and abuse response"
+P2P/PCDN,Data,D1,peer or edge upload contribution under provider admission
+P2P/PCDN,Control,D0,"tracker, admission, ranking, and fallback"
+P2P/PCDN,Trust,D0,platform-collected contribution evidence
+P2P/PCDN,Economic,D0,platform rewards or contracts
+P2P/PCDN,Governance/Policy,D0,provider policy and abuse response
+Multi-CDN,Data,D1,delivery spread across CDN vendors
+Multi-CDN,Control,D1,authority ranks provider pathways; D2 needs authority-free interoperable steering
+Multi-CDN,Trust,D0,telemetry interpreted by steering/content authority
+Multi-CDN,Economic,D1,diversified provider contracts
+Multi-CDN,Governance/Policy,D0,content-provider and CDN policy
+ICN/NDN/CCN,Data,D2,named-object caching/retrieval; D1 if gateway-mediated
+ICN/NDN/CCN,Control,D2,name forwarding; D1 if gateways/operators mediate
+ICN/NDN/CCN,Trust,D2,content-object signatures and name-based trust
+ICN/NDN/CCN,Economic,D0,external unless market layer added
+ICN/NDN/CCN,Governance/Policy,D0,policy/accountability external
+Edge/Fog CDN,Data,D1,micro-PoP resources under regional orchestration
+Edge/Fog CDN,Control,D1,orchestrated placement/migration; D2 needs multi-domain federation
+Edge/Fog CDN,Trust,D0,operator QoE telemetry
+Edge/Fog CDN,Economic,D0,contractual resource allocation
+Edge/Fog CDN,Governance/Policy,D0,"ISP, platform, or provider policy"
+Blockchain/Web3 DCDN,Data,D1,CDN-grade delivery via gateways/caches/relays; D2 for open storage/naming
+Blockchain/Web3 DCDN,Control,D1,gateways/DHTs/markets mediate fallback; D2 needs protocol mediation
+Blockchain/Web3 DCDN,Trust,D2,"proofs, contracts, logs; D3 only without trusted coordinator"
+Blockchain/Web3 DCDN,Economic,D2,token/staking settlement; D3 only permissionless
+Blockchain/Web3 DCDN,Governance/Policy,D1,DAO or policy contracts plus legal fallback

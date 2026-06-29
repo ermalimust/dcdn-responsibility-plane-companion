@@ -1,0 +1,19 @@
+# Manifest
+
+- `.gitattributes`
+- `bibliography/main.bbl`
+- `bibliography/ref.bib`
+- `CITATION.md`
+- `data/candidate_records_summary.csv`
+- `data/claim_source_map_representative.csv`
+- `data/deployment_landscape.csv`
+- `data/included_sources_metadata.csv`
+- `data/quantitative_anchors.csv`
+- `data/responsibility_plane_profile.csv`
+- `data/review_protocol_summary.csv`
+- `MANIFEST.md`
+- `README.md`
+- `reliability/coding_protocol.md`
+- `reliability/compute_kappa.py`
+- `reliability/final_lower_bound_profile.csv`
+- `reliability/reliability_summary.csv`
